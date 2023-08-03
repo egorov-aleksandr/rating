@@ -1,0 +1,81 @@
+.conteiner{
+    margin: auto;
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 1400px;
+position: relative;
+height: 100%;
+margin-top:40px;
+min-height:800px;
+}
+/* ВЕРХНЯЯ ЧАСТЬ */
+.upper-inf{
+    display:grid;
+    grid-template-columns: repeat(5, 250px);
+	row-gap: 30px;
+ 	column-gap: 20px;
+
+}
+
+
+.upper-inf-elem{
+    width: 247.1px;
+    height: 143px;
+    border-radius: 12px;
+    margin: 0px;
+
+}
+.upper-inf-elem-maintext{
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 35px;
+
+    text-align: left;
+    color: #DFEBE9;
+}
+.upper-inf-elem-img{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #DFEBE9;
+    display: flex;
+    align-items: center;
+	text-align: center;
+    margin-top: -5px;
+}
+.upper-inf-elem-img img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+.upper-inf-elem-value{
+    margin-left: 40px;
+    margin-top: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #DFEBE9;
+}
+.upper-inf-elem-lowerimg{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+.upper-inf-elem-lowerimg img{
+    width: 15px;
+    height: 15px;
+}
+.countText{
+color: black;
+width: 100%;
+font-size: 16px;
+}

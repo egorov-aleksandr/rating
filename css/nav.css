@@ -1,0 +1,29 @@
+.navigation{
+width:100%;
+text-align:center;
+margin:auto;
+display:flex;
+flex-align: row;
+position:absolute;
+bottom:25px;
+}
+.navigation button{
+	display:block;
+	background: #FFFFFF;
+	border: 1px solid #AEAEAE;
+	border-radius: 12px;
+	width:200px;
+	height:45px;
+	color: #142647;
+	font-size:18px;
+	margin-right:10px;
+}
+
+.navigation button:hover{
+	background: rgba(11, 187, 239, 0.6);
+	color: #142647;
+}
+.active{
+background: #142647 !important;
+color: #FFF !important;
+}
